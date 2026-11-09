@@ -1,0 +1,13 @@
+{
+  "name": "copilot-proficient-kit",
+  "version": "1.0.0",
+  "description": "GitHub Copilot Proficient customization, MCP, Agent, and API integration kit",
+  "type": "module",
+  "scripts": {
+    "start": "node src/copilot-api-demo.mjs",
+    "test": "node --test test/copilot-api-demo.test.mjs"
+  },
+  "dependencies": {
+    "@github/copilot-sdk": "latest"
+  }
+}
