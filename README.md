@@ -21,3 +21,6 @@ Run the included PowerShell script to copy all `.github` and `.vscode` Copilot c
 ```powershell
 .\apply-to-repo.ps1 -TargetRepoPath "C:\path\to\your\repo"
 ```
+
+## Copilot Code Review Enabled
+Automatic Copilot code review is active via repository rulesets.
