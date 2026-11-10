@@ -17,6 +17,7 @@ $dirs = @(
     ".github\prompts",
     ".github\agents",
     ".github\skills\api-endpoint-scaffold",
+    ".github\workflows",
     ".vscode"
 )
 
@@ -33,6 +34,8 @@ Copy-Item "$KitRoot\.github\prompts\refactor.prompt.md" "$TargetRepoPath\.github
 Copy-Item "$KitRoot\.github\prompts\review.prompt.md" "$TargetRepoPath\.github\prompts\review.prompt.md" -Force
 Copy-Item "$KitRoot\.github\agents\architect.agent.md" "$TargetRepoPath\.github\agents\architect.agent.md" -Force
 Copy-Item "$KitRoot\.github\skills\api-endpoint-scaffold\SKILL.md" "$TargetRepoPath\.github\skills\api-endpoint-scaffold\SKILL.md" -Force
+Copy-Item "$KitRoot\.github\workflows\copilot-setup-steps.yml" "$TargetRepoPath\.github\workflows\copilot-setup-steps.yml" -Force
+Copy-Item "$KitRoot\.github\mcp.json" "$TargetRepoPath\.github\mcp.json" -Force
 Copy-Item "$KitRoot\.vscode\mcp.json" "$TargetRepoPath\.vscode\mcp.json" -Force
 Copy-Item "$KitRoot\.vscode\settings.json" "$TargetRepoPath\.vscode\settings.json" -Force
 
